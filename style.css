@@ -3,6 +3,28 @@
     padding: 0;
     box-sizing: border-box; /*try out this*/
 }
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main{
+    overflow: hidden;
+    position: relative;
+}
+@font-face {
+    font-family: a;
+    src: url(./jost-variable.ttf);
+}
+@font-face {
+    font-family: b;
+    src: url(./KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+@font-face {
+    font-family: c;
+    src: url(./KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+
 #page1{
     height: 100vh;
     width: 100vw;
@@ -39,4 +61,6 @@
     background: transparent;
     border: 1px solid #fff;
     border-radius: 15px;
+    font-family: a;
+    font-size: 15px;
 }
