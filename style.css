@@ -183,3 +183,30 @@ body {
     max-width: 100vw;
     position: relative;
 }
+
+#page6{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a3cce;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    font-family: a;
+    color: #fff;
+    padding: 0 8vw 0 8vw;
+}
+#page6>h2{
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 100;
+
+}
+#page6>h1{
+    font-weight: 100;
+    line-height: 90px;
+    font-size: 65px;
+    width: 90%;
+    color: #ffffff6b;
+}
