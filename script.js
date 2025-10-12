@@ -628,9 +628,9 @@ canvas2()
 
 
 
-gsap.to(".page7-cir",{
+gsap.to("#page7 > #circle",{
   scrollTrigger:{
-    trigger:`.page7-cir`,
+    trigger:`#page7 > #circle`,
     start:`top center`,
     end:`bottom top`,
     scroller:`#main`,
@@ -641,9 +641,9 @@ gsap.to(".page7-cir",{
 
 
 
-gsap.to(".page7-cir-inner",{
+gsap.to("#page7 > #circle > #circle-inner",{
   scrollTrigger:{
-    trigger:`.page7-cir-inner`,
+    trigger:`#page7 > #circle > #circle-inner`,
     start:`top center`,
     end:`bottom top`,
     scroller:`#main`,
